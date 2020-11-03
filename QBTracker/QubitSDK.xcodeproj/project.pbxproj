@@ -71,9 +71,6 @@
 		B9AEA11821008780009812C0 /* QBDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0F5BF571F4D7833009EFE8D /* QBDataModel.xcdatamodeld */; };
 		B9D13A7320A37DB9004568BF /* JSONQuibitSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D13A7220A37DB9004568BF /* JSONQuibitSerialization.swift */; };
 		EB8C04512396820F000939F3 /* lookup_entity.json in Resources */ = {isa = PBXBuildFile; fileRef = B983902C1F6FD3410002993F /* lookup_entity.json */; };
-		F9CD21682551E06B00B00E9A /* universal_framwork_script in Resources */ = {isa = PBXBuildFile; fileRef = F9CD21642551E06B00B00E9A /* universal_framwork_script */; };
-		F9CD21692551E06B00B00E9A /* create_xcframework.sh in Resources */ = {isa = PBXBuildFile; fileRef = F9CD21652551E06B00B00E9A /* create_xcframework.sh */; };
-		F9CD216A2551E06B00B00E9A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F9CD21662551E06B00B00E9A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,9 +194,6 @@
 		B9987BA11F6C4D2A00CA6AB7 /* QBEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QBEntityTests.swift; sourceTree = "<group>"; };
 		B9ABEC351F6AC49200C6217B /* QBDispatchQueueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QBDispatchQueueService.swift; sourceTree = "<group>"; };
 		B9D13A7220A37DB9004568BF /* JSONQuibitSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONQuibitSerialization.swift; sourceTree = "<group>"; };
-		F9CD21642551E06B00B00E9A /* universal_framwork_script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = universal_framwork_script; sourceTree = "<group>"; };
-		F9CD21652551E06B00B00E9A /* create_xcframework.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = create_xcframework.sh; sourceTree = "<group>"; };
-		F9CD21662551E06B00B00E9A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,10 +278,7 @@
 		42F0CD441F4AEE2B00BD9010 = {
 			isa = PBXGroup;
 			children = (
-				F9CD21652551E06B00B00E9A /* create_xcframework.sh */,
-				F9CD21662551E06B00B00E9A /* README.md */,
-				F9CD21642551E06B00B00E9A /* universal_framwork_script */,
-				F9CD215C2551DEEE00B00E9A /* Sources */,
+				42F0CD501F4AEE2B00BD9010 /* QubitSDK */,
 				42F0CD681F4AF0FE00BD9010 /* Playgrounds */,
 				42F0CD5B1F4AEE2B00BD9010 /* QBTrackerTests */,
 				A024B5B71F4D7B83009748A1 /* SwiftTestApp */,
@@ -309,7 +300,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		42F0CD501F4AEE2B00BD9010 /* QBTracker */ = {
+		42F0CD501F4AEE2B00BD9010 /* QubitSDK */ = {
 			isa = PBXGroup;
 			children = (
 				A08D69B61F54269D00CE2FD5 /* QBEvent */,
@@ -323,7 +314,7 @@
 				A0D30B811F559F180029D3DC /* QubitSDK.swift */,
 				42F0CD521F4AEE2B00BD9010 /* Info.plist */,
 			);
-			path = QBTracker;
+			path = QubitSDK;
 			sourceTree = "<group>";
 		};
 		42F0CD5B1F4AEE2B00BD9010 /* QBTrackerTests */ = {
@@ -459,14 +450,6 @@
 				04C34FE821917FE600B71EFF /* experiences_entity.json */,
 			);
 			path = json;
-			sourceTree = "<group>";
-		};
-		F9CD215C2551DEEE00B00E9A /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				42F0CD501F4AEE2B00BD9010 /* QBTracker */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -611,9 +594,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9CD216A2551E06B00B00E9A /* README.md in Resources */,
-				F9CD21692551E06B00B00E9A /* create_xcframework.sh in Resources */,
-				F9CD21682551E06B00B00E9A /* universal_framwork_script in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
