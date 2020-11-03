@@ -278,7 +278,7 @@
 		42F0CD441F4AEE2B00BD9010 = {
 			isa = PBXGroup;
 			children = (
-				42F0CD501F4AEE2B00BD9010 /* QubitSDK */,
+				F9CD215C2551DEEE00B00E9A /* Sources */,
 				42F0CD681F4AF0FE00BD9010 /* Playgrounds */,
 				42F0CD5B1F4AEE2B00BD9010 /* QBTrackerTests */,
 				A024B5B71F4D7B83009748A1 /* SwiftTestApp */,
@@ -450,6 +450,14 @@
 				04C34FE821917FE600B71EFF /* experiences_entity.json */,
 			);
 			path = json;
+			sourceTree = "<group>";
+		};
+		F9CD215C2551DEEE00B00E9A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				42F0CD501F4AEE2B00BD9010 /* QubitSDK */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
